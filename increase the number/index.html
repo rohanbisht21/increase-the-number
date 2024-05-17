@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .but{
+            width: 500px;
+            height: 50px;
+            background-color: aquamarine;
+            cursor: grab;
+        }
+        .display{
+            width: 500px;
+            height: 50px;
+            background-color: rgb(66, 122, 103);
+            margin-top: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<button class="but">click bhai </button>
+
+</div>
+<div class="display">
+
+</div>
+<script>
+let a=15;
+    var val = document.querySelector(".but");
+    var val1 = document.querySelector(".display");
+    val.addEventListener("click",()=>{
+        
+        a++;
+        val1.innerHTML=a;
+    });
+
+
+
+</script>
+</body>
+</html>
